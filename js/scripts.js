@@ -357,7 +357,7 @@ $(document).ready(function() {
     $('input, textarea').placeholder();
 	
 	// Маски поля
-	$(".phone_field").mask("+7 (999) 999-99-99",{completed:function(){ok=1}});
+	$(".phone_field").mask("099 999 99 99",{completed:function(){ok=1}});
 
 	// Анимация
 	if(window.innerWidth>=768) {
